@@ -1,14 +1,12 @@
 # COMMIT CONVENTIONS
-## STRUCTURE: [CONVENTIONAL COMMITS](https://www.conventionalcommits.org/en/v1.0.0/)
-    ```shell
+## [CONVENTIONAL COMMITS](https://www.conventionalcommits.org/en/v1.0.0/)
     <type>[optional scope]: <description>
 
     [optional body]
 
     [optional footer(s)]
-    ```
 
-## TYPES: [ANGULAR COMMIT](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
+## [ANGULAR COMMIT](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
 * **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 * **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
 * **docs**: Documentation only changes
