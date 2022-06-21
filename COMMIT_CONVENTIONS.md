@@ -1,5 +1,5 @@
 # COMMIT CONVENTIONS
-## STRUCTUR: [CONVENTIONAL COMMITS](https://www.conventionalcommits.org/en/v1.0.0/)
+## STRUCTURE: [CONVENTIONAL COMMITS](https://www.conventionalcommits.org/en/v1.0.0/)
     ```shell
     <type>[optional scope]: <description>
 
