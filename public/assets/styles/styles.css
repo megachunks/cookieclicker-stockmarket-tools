@@ -1,0 +1,122 @@
+* {
+    font-family: 'Kavoon';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root {
+    --color-cookie-clicker-palette-1: #4b261b;
+    --color-cookie-clicker-palette-2: #6b4026;
+    --color-cookie-clicker-palette-3: #875a34;
+    --color-cookie-clicker-palette-4: #9f7547;
+    --color-cookie-clicker-palette-5: #b6986d;
+    --color-cookie-clicker-palette-6: #24597A;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(https://orteil.dashnet.org/cookieclicker/img/starbg.jpg);
+    background-repeat: repeat repeat;
+    background-position: center;
+    background-size: 100.0vw;
+    width: 100.0vw;
+}
+
+header,
+main,
+footer {
+    width: 100.0vw;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h6 {
+    font-size: small;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(0, 0, 0, .5);
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 5% 0px 5%;
+    height: 90px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    height: 75.0vh;
+}
+
+.application {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.app-item {
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    align-items: center;
+}
+
+.app-label {
+    justify-content: right;
+    font-size: large;
+}
+
+.app-input {
+    justify-content: left;
+}
+
+.app-input input {
+    font-size: larger;
+    width: 100px;
+    color: black;
+    padding: 2px;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 5% 0px 5%;
+    height: 90px;
+}
