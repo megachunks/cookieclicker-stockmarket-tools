@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UFT-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    
-    <meta name="description" content="Tools for the Stock Market minigame of Cookie Clicker. Made by megachunks.">
-    <meta name="keywords" content="Cookie Clicker, Tools, Stock Market, Megachunks">
-    
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <title>Stock Market Tools - Cookie Clicker</title>
+  <head>
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script src="assets/styles/scripts/main.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kavoon"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
+    <meta
+      name="description"
+      content="Tools for the Stock Market minigame of Cookie Clicker. Made by megachunks."
+    />
+    <meta
+      name="keywords"
+      content="Cookie Clicker, Tools, Stock Market, Megachunks"
+    />
+
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+    <title>Stock-Market Tools - Cookie Clicker</title>
+  </head>
+  <body>
     <header>
-        
+      <div class="header-item">
+        <h1>Stock-Market Tools - Cookie Clicker</h1>
+      </div>
+      <div class="header-item">
+        <a href="https://github.com/megachunks/cookieclicker-stockmarket-tools">Github</a>
+      </div>
     </header>
     <main>
-        <h1>Stock Market Tools - Cookie Clicker</h1>
+      <form class="application" oninput="refresh()">
+        <div class="app-item app-label">
+          <label>Broker =</label>
+        </div>
+        <div class="app-item app-input">
+          <input id="inBroker" value="0" min="0" type="number" />
+        </div>
+        <div class="app-item app-label">
+          <label>Overhead =</label>
+        </div>
+        <div class="app-item app-output">
+          <output ide="outOverhead"></output>
+        </div>
+        <div class="app-item app-label">
+          <label>Q =</label>
+        </div>
+        <div class="app-item app-input">
+          <input id="inQ" value="0" min="0" type="number" />
+        </div>
+        <div class="app-item app-label">
+          <label>P.C. =</label>
+        </div>
+        <div class="app-item app-input">
+          <input id="inPC" value="0" min="0" type="number" />
+        </div>
+        <div class="app-item app-label">
+          <label>Total =</label>
+        </div>
+        <div class="app-item app-output">
+          <output id="outTotal"></output>
+        </div>
+        <div class="app-item app-label">
+          <label>Break-even =</label>
+        </div>
+        <div class="app-item app-output">
+          <output id="outBreakEven"></output>
+        </div>
+      </form>
     </main>
     <footer>
-
+      <div class="footer-item">
+        <h6>by megachunks</h6>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
